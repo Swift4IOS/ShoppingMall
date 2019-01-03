@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		57ED691021DD284D0097A080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED690F21DD284D0097A080 /* AppDelegate.swift */; };
-		57ED691221DD284D0097A080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED691121DD284D0097A080 /* ViewController.swift */; };
+		57ED691221DD284D0097A080 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED691121DD284D0097A080 /* LoginViewController.swift */; };
 		57ED691521DD284D0097A080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ED691321DD284D0097A080 /* Main.storyboard */; };
 		57ED691721DD284F0097A080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57ED691621DD284F0097A080 /* Assets.xcassets */; };
 		57ED691A21DD284F0097A080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ED691821DD284F0097A080 /* LaunchScreen.storyboard */; };
+		891F35BD21DDEE7C00A736D3 /* CartBadgeCountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F35BC21DDEE7C00A736D3 /* CartBadgeCountButton.swift */; };
+		891F35BF21DDEFA100A736D3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F35BE21DDEFA100A736D3 /* RegisterViewController.swift */; };
+		891F35C121DDEFC900A736D3 /* ShoppingMallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F35C021DDEFC900A736D3 /* ShoppingMallViewController.swift */; };
+		891F35C321DDEFD800A736D3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F35C221DDEFD800A736D3 /* SettingsViewController.swift */; };
+		891F35C521DDF04F00A736D3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F35C421DDF04F00A736D3 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57ED690C21DD284D0097A080 /* ShoppingMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57ED690F21DD284D0097A080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57ED691121DD284D0097A080 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57ED691121DD284D0097A080 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		57ED691421DD284D0097A080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57ED691621DD284F0097A080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57ED691921DD284F0097A080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57ED691B21DD284F0097A080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891F35BC21DDEE7C00A736D3 /* CartBadgeCountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartBadgeCountButton.swift; sourceTree = "<group>"; };
+		891F35BE21DDEFA100A736D3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		891F35C021DDEFC900A736D3 /* ShoppingMallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallViewController.swift; sourceTree = "<group>"; };
+		891F35C221DDEFD800A736D3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		891F35C421DDF04F00A736D3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +65,34 @@
 			isa = PBXGroup;
 			children = (
 				57ED690F21DD284D0097A080 /* AppDelegate.swift */,
-				57ED691121DD284D0097A080 /* ViewController.swift */,
-				57ED691321DD284D0097A080 /* Main.storyboard */,
+				891F35BA21DDEE0900A736D3 /* controller */,
+				891F35BB21DDEE1500A736D3 /* view */,
 				57ED691621DD284F0097A080 /* Assets.xcassets */,
 				57ED691821DD284F0097A080 /* LaunchScreen.storyboard */,
 				57ED691B21DD284F0097A080 /* Info.plist */,
 			);
 			path = ShoppingMall;
+			sourceTree = "<group>";
+		};
+		891F35BA21DDEE0900A736D3 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				57ED691121DD284D0097A080 /* LoginViewController.swift */,
+				891F35BE21DDEFA100A736D3 /* RegisterViewController.swift */,
+				891F35C021DDEFC900A736D3 /* ShoppingMallViewController.swift */,
+				891F35C221DDEFD800A736D3 /* SettingsViewController.swift */,
+				891F35C421DDF04F00A736D3 /* BaseViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		891F35BB21DDEE1500A736D3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				891F35BC21DDEE7C00A736D3 /* CartBadgeCountButton.swift */,
+				57ED691321DD284D0097A080 /* Main.storyboard */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57ED691221DD284D0097A080 /* ViewController.swift in Sources */,
+				891F35BD21DDEE7C00A736D3 /* CartBadgeCountButton.swift in Sources */,
+				57ED691221DD284D0097A080 /* LoginViewController.swift in Sources */,
 				57ED691021DD284D0097A080 /* AppDelegate.swift in Sources */,
+				891F35BF21DDEFA100A736D3 /* RegisterViewController.swift in Sources */,
+				891F35C121DDEFC900A736D3 /* ShoppingMallViewController.swift in Sources */,
+				891F35C521DDF04F00A736D3 /* BaseViewController.swift in Sources */,
+				891F35C321DDEFD800A736D3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
